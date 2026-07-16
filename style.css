@@ -54,6 +54,18 @@
 
 #dynbg_settings .dynbg-actions {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 8px;
     margin-top: 14px;
+}
+
+#dynbg_settings .dynbg-actions .menu_button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    margin: 0;
 }
